@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "paramikot"
+version = "0.1.0"
+description = ""
+authors = ["no1986 <n.ohkawa1221@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+paramiko = "^3.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
